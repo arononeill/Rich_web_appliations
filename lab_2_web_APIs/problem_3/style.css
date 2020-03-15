@@ -1,0 +1,101 @@
+.headerDiv img {
+  height: 80%;
+}
+
+.container {
+  height: 20%;
+}
+
+.headerDiv {
+  float: left;
+}
+
+.header1 {
+  float: left;
+  margin-left: 10%;
+  width: 150px;
+  margin-top: 70px;
+}
+
+.header2 {
+  float: right;
+  margin-right: 20%;
+  margin-top: 5.5%;
+  width: 2%;
+}
+
+.searchButton {
+  width: 110px;
+  height: 50px;
+  font-size: 20px;
+  border-radius:1em;
+}
+
+.header3 {
+  float: right;
+  margin-top: 5.5%;
+  margin-right: 0px;
+}
+
+.backButton {
+  width: 80px;
+  height: 50px;
+  font-size: 20px;
+  border-radius:1em;
+}
+
+input {
+  width: 270%;
+  margin-left: 50px;
+  height: 29%;
+  font-size: 100%;
+}
+
+.img {
+  height: 50%;
+  width: 70%;
+}
+
+.userProfile {
+  width: 48%;
+  float: left;
+  margin-left: 2%;
+}
+
+.userRepos {
+  display: inline-block;
+  width: 48%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  align-content: center;
+  text-align: center;
+}
+
+.scrollable {
+  height: 360px;
+  overflow: auto;
+  display: block;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+
+p {
+  font-size: 160%;
+}
+
+#errorMessage {
+  text-align: center;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  padding: 80px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  font-size: 30px;
+  display: none;
+} 

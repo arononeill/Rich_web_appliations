@@ -1,0 +1,95 @@
+body{
+    font-family:sans-serif;
+}
+
+h1{
+  font-size:1.2em;
+  text-align:center;
+}
+
+.panel{
+  background:rgb(250,250,250);
+  padding:1em;
+  margin:auto;
+  max-width:70%;
+  text-align: center;
+}
+
+#add_contact {
+  border-radius: 15px;
+  margin: auto;
+  display: block;
+  width: 40em;
+  height: 4em;
+  background: #80e5ff;
+  border: 2px solid #00a3cc;
+}
+
+input{
+  width:20%;
+  display: inline-block;
+  box-sizing:border-box;
+  font-size:1em;
+  margin-top:0.5em;
+  padding:0.5em;
+}
+
+input:focus{
+  outline:none;
+}
+
+input::after{
+  width:100%;
+  height:10px;
+  background:red;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    align-content: center;
+    text-align: center;
+    margin-left: 15%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#nameBtn {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+
+}
+
+#numberBtn {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+
+#error {
+  text-align: center;
+  margin: 5%;
+  display: none;
+}
+
+#noResult {
+  text-align: center;
+  margin: 5%;
+  display: none;
+}

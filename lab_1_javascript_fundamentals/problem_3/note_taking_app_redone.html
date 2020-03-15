@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Lab_01 : Part 3</title>
+        <script src="jquery-3.4.1.min.js"></script>
+    </head>
+        <body>
+
+        <div class="header">
+            <h3>Notes: </h3>
+        </div>
+
+        <div class="background">
+            <button type="button" class="remove_all" onclick="clearList()"> Reset List</button>
+            <input type="text" id="userInput" placeholder="Add note">
+            <span onclick="newElement()" class="InsertBtn">Add</span>
+
+            <form class="user_input">
+                <b>Please select the<br>border colour: </b>
+                <input  type="color" id="color" name="favcolor" value="#ff0000"><br><br>
+            </form>
+        </div>
+        
+        <ul id="ListItem">
+            <li id="box">Example_note_1</li>
+            <li id="box">Example_note_2</li>
+            <li id="box">Example_note_3</li>
+            <li id="box">Example_note_4</li>
+            
+        </ul>
+
+    </body>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="site.js"></script>
+    </html>

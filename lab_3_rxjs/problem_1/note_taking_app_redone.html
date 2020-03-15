@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Lab_03 : Part 1</title>
+  </head>
+  <body>
+    <div class="header">
+      <h3>Notes:</h3>
+    </div>
+
+    <div class="background">
+      <button type="button" class="remove_all">Reset List</button>
+      <input type="text" id="userInput" placeholder="Add note" />
+      <button class="InsertBtn">Add</button>
+
+      <form class="user_input">
+        <b>Please select the<br />border colour: </b>
+        <input
+          type="color"
+          id="color"
+          name="favcolor"
+          value="#ff0000"
+        /><br /><br />
+      </form>
+    </div>
+
+    <ul id="ListItem">
+      <li id="box" maxlength="10">note_1</li>
+      <li id="box">note_2</li>
+      <li id="box">note_3</li>
+      <li id="box">note_4</li>
+    </ul>
+  </body>
+
+  <script src="https://npmcdn.com/@reactivex/rxjs@5.0.0-beta.3/dist/global/Rx.umd.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="site.js"></script>
+</html>

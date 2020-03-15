@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Lab_01 : Part 2</title>
+    </head>
+
+    <body>
+      <div class="wrapper">
+            <br>
+            <div id="color">
+                    <input type="text" id="userHr" name="hour" placeholder="h" oninput="this.value=this.value.replace(/[^\d]/,'')">
+                    <div id="colon">:</div>
+                    <input type="text" id="UserMin" name="minute" placeholder="m" oninput="this.value=this.value.replace(/[^\d]/,'')">
+                    <div id="colon">:</div>
+                    <input id="small" type="text" name="second" placeholder="s" oninput="this.value=this.value.replace(/[^\d]/,'')"><br>
+                <button id="start">
+                    <img src="play1.png" alt="play" class="playBtn">
+                    <div id="block">SET COUNTDOWN</div>
+                </button>
+            </div>
+            <div id="clock">
+                    <span id="minutes"></span>
+                    <span id="seconds"></span>
+                    <span id="milliseconds"></span>
+            </div>
+            <button id="stop">
+                <img src="play1.png" alt="play" class="playBtn">
+                <div id="stop">Play</div>
+            </button><br>
+            <button id="reset">Reset</button>
+      </div>
+
+    </body>
+
+    <script src="https://npmcdn.com/@reactivex/rxjs@5.0.0-beta.3/dist/global/Rx.umd.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="site.js"></script>
+</html>

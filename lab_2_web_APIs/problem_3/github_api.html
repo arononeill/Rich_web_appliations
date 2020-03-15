@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Lab_02 : Part 3</title>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="headerDiv">
+                <a href="github_api.html">
+                    <img src="github.jpg">
+                </a>
+            </div>
+
+            <form>
+                <div class="header1">
+                    <input type="text" class="searchValue" name="search" id="name" placeholder="  Username" />
+                </div>
+                <div class="header2">
+                    <a href="github_api.html">
+                            <input type="button" class="backButton" value="Back" onclick="location.href='github_api.html';" />
+                    </a>
+                </div>
+
+                <div class="header3">
+                        <input name="searchBtn" class="searchButton" type="reset" value="Search" onclick="fetchGithub();"></input>
+                </div>
+            </form>
+        </div>
+
+        <hr>
+        
+        <div id="errorMessage"></div>
+            <p id="validation2"></p>
+
+        <div class="userProfile">
+            <p id ="p"></p>
+            <table id="userTable">
+            </table>
+        </div>
+
+        
+        <div class="userRepos">
+                <p id ="p2"></p>
+            <table id="myTable">
+            </table>
+
+        </div>
+        
+    </body>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="site.js"></script>
+
+</html>

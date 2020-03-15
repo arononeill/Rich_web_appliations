@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Lab_02 : Part 1</title>
+    </head>
+    
+    <body>
+        <br><h1>Phone Directory</h1><br>
+        <div id="add_contact" class="panel">
+                <form id="contact" action="#" >
+                    
+                    <div>
+                        <label>
+                            <input type="text" name="person" id="name" placeholder="Contact Name"/>
+                        </label>
+                        <label>
+                            <input type="tel" name="phone" id="number" placeholder="Mobile Number"/>
+                        </label>
+                        <label>
+                            <input type="email" name="email" id="email" placeholder="Email"/>
+                        </label>
+                        <input name="submit" type="button" value="Add Contact" onclick="createRow();"/>
+                    </div>
+                </form>
+            </div>
+
+        <div id="search" class="panel">
+            <h1>Search Contacts</h1>
+
+            Search contact by Mobile No:
+            <input type="text" class="search_field" name="search" id="myInput" onkeyup="telSearch()"/>
+
+            <div id="results">
+                
+            </div>
+                
+            </form>
+        </div>
+
+        <div id = "searchResults" class="panel">
+
+        </div>
+
+        <table id="myTable">
+        </table>
+
+        <div id="error">There was an error in input format</div>
+        <div id="noResult">There were no phone numbers matching your search</div>
+
+    </body>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="site.js"></script>
+
+</html>

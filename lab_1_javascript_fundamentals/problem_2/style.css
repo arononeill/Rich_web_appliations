@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+  }
+
+/* Giving the header class attributes */
+.background {
+    background-color: #f44336;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-left: 130px;
+  }
+
+.sectioned {
+    display: flex; 
+    flex-wrap: wrap;
+  }
+  
+  .cell {
+    /* Each column wide is 25% of the window size */
+    flex-grow: 0.25;
+    border: 1px solid;
+  }
+  
+  /* changes the grid view from a 1x4 grid to a 2x2 grid once screen size is < 720 pixels */
+  @media (max-width: 720px) {
+    .cell {
+      width: calc(50% - 2px)
+    }
+  }
+  
+  /* changes the grid view from a 1x4 grid to a 4x1 grid oncee screen size is < 360 pixels */
+  @media (max-width: 360px) {
+    .cell {
+      width: calc(100% - 2px)
+    }
+  }

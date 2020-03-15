@@ -1,0 +1,94 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetca Neue Light", "Helvetica Neue", Helvetica Arial, "Lucida Grande", sans-serif;
+    height: 100%;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#color {
+    background: #d9d9d9;
+    width: 40%;
+    height: 15%;
+    margin: auto;
+}
+
+#clock {
+    margin: 5% auto;
+    font-size: 4em;
+}
+
+button {
+    border-radius: 5px;
+    color: #737373;
+    font-weight: bold;
+    border: solid 1px #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.9em;
+    padding: auto;
+    width: 180px;
+    background: #fff;
+    margin: 10px;
+    outline: none;
+    text-align: center;
+}
+
+#start {
+    background: #fff;
+    margin-top: 5%;
+    height: 25%;
+}
+
+#start img {
+    width: 5%;
+}
+
+#stop img {
+    height: 10%;
+    width: 10%;
+}
+
+.playBtn {
+    width: 50%;
+    height: 50%;
+    margin-right: 3%;
+}
+
+button:hover {
+    transition: all 0.5s ease-in-out;
+}
+
+input {
+    font-size: 180%;
+    text-align: center;
+    margin-top: 3%;
+    width: 12%;
+    height: 40%;
+}
+
+#small {
+    width: 7.5%;
+    height: 30%;
+}
+
+#userHr, #UserMin, #small {
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+#colon {
+    display: inline-block;
+    font-size: 2em;
+}
+
+#block, #Stop {
+    display: inline-block;
+}
+
+#minutes, #seconds, #milliseconds {
+    color: #737373;
+}
